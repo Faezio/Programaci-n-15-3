@@ -1,2 +1,0 @@
-descargate wpp
-de nishe
