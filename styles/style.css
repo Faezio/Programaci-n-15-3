@@ -1,0 +1,322 @@
+body {
+    font-family: "Roboto Mono", monospace;
+}
+
+div {
+    margin:-50px 0px 0px 0px;
+
+}
+
+.home {
+    margin-top: 7vh;
+}
+
+.electrónica {
+    margin-top:-1vh;
+}
+
+.acessorios{
+    margin-top: 7vh
+
+}
+
+.hombre {
+    margin: -10px 0px;
+}
+
+.mujer{
+    margin: -10px 0px;
+}
+
+.carrito {
+    position: absolute;
+    top: -10px; 
+    right: 10px; 
+}
+
+.login {
+    position: absolute;
+    top: -10px; 
+    right: 223px; 
+}
+
+.registro {
+    position: absolute;
+    top: -10px; 
+    right: 100px; 
+}
+
+
+
+
+
+
+/*Mujer*/
+
+
+
+
+
+.mujer1 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid red;
+    margin-top: 20vh;
+    margin-left: 0vh;
+  
+    
+}
+.hoodie1{
+    margin-top: 68vh;
+    text-align: center;
+}
+
+.mujer2 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid blue;
+    margin-top: 20vh;
+    margin-left: 41.5vh;
+    
+    
+}
+
+.remera{
+    margin-top: 68vh;
+    text-align: center;
+}
+
+.mujer3 {
+  position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid black;
+    margin-top: 20vh;
+    margin-left: 83vh;
+    
+    
+}
+
+.pantalon{
+    margin-top: 68vh;
+    text-align: center;
+}
+
+.mujer4 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid blueviolet;
+    margin-top: 20vh;
+    margin-left: 121vh;
+
+}
+.remera2{
+    margin-top: 68vh;
+    text-align: center;
+}
+
+.mujer5 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid yellowgreen;
+    margin-top: 20vh;
+    margin-left: 159vh;
+   
+    
+    
+}
+.buzo{
+    margin-top: 68vh;
+    text-align: center;
+}
+
+.categoria1{
+    margin-top: 20vh;
+    font-family: "Oswald", sans-serif;
+}
+
+
+
+
+
+
+
+
+/*HOMBRE*/
+
+
+
+
+
+
+
+
+
+.hombre1 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid red;
+    margin-top: 140vh;
+    margin-left: 0vh;
+  
+    
+}
+.hoodie1{
+   
+}
+
+.hombre2 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid blue;
+    margin-top: 140vh;
+    margin-left: 41.5vh;
+    
+    
+}
+
+.remera{
+}
+
+.hombre3 {
+  position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid black;
+    margin-top: 140vh;
+    margin-left: 83vh;
+    
+    
+}
+
+.pantalon{
+   
+}
+
+.hombre4 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid blueviolet;
+    margin-top: 140vh;
+    margin-left: 121vh;
+
+}
+.remera2{
+   
+}
+
+.hombre5 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid yellowgreen;
+    margin-top: 140vh;
+    margin-left: 159vh;
+   
+    
+    
+}
+.buzo{
+   
+}
+
+.categoria2{
+    margin-top: 140vh;
+    font-family: "Oswald", sans-serif;
+}
+
+
+
+
+
+
+/*ELECTRONICO*/
+
+
+
+
+
+
+
+.elec1 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid red;
+    margin-top: 130vh;
+    margin-left: 0vh;
+  
+    
+}
+.hoodie1{
+   
+}
+
+.elec2 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid blue;
+    margin-top: 130vh;
+    margin-left: 41.5vh;
+    
+    
+}
+
+.remera{
+}
+
+.elec3 {
+  position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid black;
+    margin-top: 130vh;
+    margin-left: 83vh;
+    
+    
+}
+
+.pantalon{
+   
+}
+
+.elec4 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid blueviolet;
+    margin-top: 130vh;
+    margin-left: 121vh;
+
+}
+.remera2{
+   
+}
+
+.elec5 {
+    position: absolute;
+    height: 500px;
+    width: 270px;
+    border: 1px solid yellowgreen;
+    margin-top: 130vh;
+    margin-left: 159vh;
+   
+    
+    
+}
+.buzo{
+   
+}
+
+.categoria3{
+    margin-top: 130vh;
+    font-family: "Oswald", sans-serif;
+}
