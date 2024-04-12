@@ -1,27 +1,25 @@
 body {
     font-family: "Roboto Mono", monospace;
 }
-
 div {
-    margin:-50px 0px 0px 0px;
+    margin:-10px 0px 0px 0px;
 
 }
-
 .home {
-    margin-top: 7vh;
+    margin: -10px 0px;
 }
 
 .electrónica {
-    margin-top:-1vh;
+    margin: -10px 0px;
 }
 
 .acessorios{
-    margin-top: 7vh
-
+    margin: -10px 0px;
 }
 
+
 .hombre {
-    margin: -10px 0px;
+    margin: -10px 0px; 
 }
 
 .mujer{
@@ -135,8 +133,9 @@ div {
 }
 
 .categoria1{
-    margin-top: 20vh;
+    margin: 130px 0px;
     font-family: "Oswald", sans-serif;
+    text-align: center;
 }
 
 
@@ -166,7 +165,9 @@ div {
   
     
 }
-.hoodie1{
+.remera2{
+    margin-top: 68vh;
+    text-align: center;
    
 }
 
@@ -181,7 +182,9 @@ div {
     
 }
 
-.remera{
+.hoodie2{
+    margin-top: 68vh;
+    text-align: center;
 }
 
 .hombre3 {
@@ -195,7 +198,9 @@ div {
     
 }
 
-.pantalon{
+.hoodie3{
+    margin-top: 68vh;
+    text-align: center;
    
 }
 
@@ -208,7 +213,9 @@ div {
     margin-left: 121vh;
 
 }
-.remera2{
+.remera3{
+    margin-top: 68vh;
+    text-align: center;
    
 }
 
@@ -218,17 +225,17 @@ div {
     width: 270px;
     border: 1px solid yellowgreen;
     margin-top: 140vh;
-    margin-left: 159vh;
-   
-    
-    
+    margin-left: 159vh; 
 }
-.buzo{
-   
+
+
+.pantalon2{
+    margin-top: 68vh;
+    text-align: center;
 }
 
 .categoria2{
-    margin-top: 140vh;
+    margin-top: 150vh;
     font-family: "Oswald", sans-serif;
 }
 
@@ -255,7 +262,9 @@ div {
   
     
 }
-.hoodie1{
+.appletv{
+    margin-top: 68vh;
+    text-align: center;
    
 }
 
@@ -270,7 +279,9 @@ div {
     
 }
 
-.remera{
+.quadcast{
+    margin-top: 68vh;
+    text-align: center;
 }
 
 .elec3 {
@@ -284,8 +295,9 @@ div {
     
 }
 
-.pantalon{
-   
+.beats{
+    margin-top: 68vh;
+    text-align: center;
 }
 
 .elec4 {
@@ -297,8 +309,9 @@ div {
     margin-left: 121vh;
 
 }
-.remera2{
-   
+.dualsense{
+    margin-top: 68vh;
+    text-align: center;
 }
 
 .elec5 {
@@ -312,11 +325,23 @@ div {
     
     
 }
-.buzo{
-   
+.magsafe{
+    margin-top: 68vh;
+    text-align: center;
 }
 
 .categoria3{
-    margin-top: 130vh;
+    margin-top: 125vh;
     font-family: "Oswald", sans-serif;
 }
+
+.hoodiemujer img{
+    width: 35%;
+    
+
+}
+
+.hoodiemujer {
+    margin-left: 20vh;
+}
+
