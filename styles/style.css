@@ -440,3 +440,44 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #111;
 }
+/* Estilos para botones de eliminar */
+button[type="button"] {
+    padding: 10px 15px;
+    background-color: #ff4b5a; /* Rojo para el botón de eliminar */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Esquinas redondeadas */
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s; /* Suaviza el cambio de color y transformación */
+    outline: none; /* Elimina el contorno que aparece al hacer clic en algunos navegadores */
+}
+
+button[type="button"]:hover {
+    background-color: #ff2e4a; /* Un rojo ligeramente más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Eleva ligeramente el botón */
+}
+
+button[type="button"]:active {
+    transform: translateY(1px); /* Simula un efecto de clic presionando el botón hacia abajo */
+}
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Padding arriba y abajo para darle espacio */
+    width: 100%; /* Asegura que ocupe toda la anchura */
+}
+
+footer p, footer a {
+    display: inline; /* Alinea el texto y el enlace en la misma línea */
+    margin: 0 5px; /* Margen para separar el texto y el enlace */
+}
+
+footer a {
+    color: #4b8bed; /* Color para el enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el mouse */
+}
