@@ -345,3 +345,98 @@ div {
     margin-left: 20vh;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.carrito-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    flex: 1 1 300px; /* Cada producto se ajusta pero no será menor de 300px */
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.producto-info p {
+    margin: 5px 0;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buy-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Color verde para el botón de compra */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Espacio por encima del botón */
+    display: block; /* Hace que el botón ocupe su línea */
+    width: 200px; /* Ancho del botón */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buy-button:hover {
+    background-color: #45a049; /* Color ligeramente más oscuro al pasar el mouse */
+}
+
+/* Remueve los márgenes y el padding por defecto de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Esto asegura que padding y border no aumenten el ancho total de los elementos */
+}
+
+/* Asegúrate de que la barra de navegación ocupe todo el ancho */
+nav {
+    width: 100%;
+    display: block;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex; /* Usamos flexbox para alinear los elementos de la lista */
+    justify-content: center; /* Esto centra los elementos de la lista en el menú */
+    align-items: center;
+    height: 50px; /* Altura fija para la barra de navegación */
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Añade una transición suave para el cambio de color */
+}
+
+/* Cambio de color al pasar el mouse */
+nav ul li a:hover {
+    background-color: #111;
+}
