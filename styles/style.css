@@ -460,24 +460,5 @@ button[type="button"]:hover {
 button[type="button"]:active {
     transform: translateY(1px); /* Simula un efecto de clic presionando el botón hacia abajo */
 }
-footer {
-    background-color: #333; /* Color de fondo del footer */
-    color: white; /* Color del texto */
-    text-align: center; /* Centrar el texto */
-    padding: 10px 0; /* Padding arriba y abajo para darle espacio */
-    width: 100%; /* Asegura que ocupe toda la anchura */
-}
+/* Resto de estilos... */
 
-footer p, footer a {
-    display: inline; /* Alinea el texto y el enlace en la misma línea */
-    margin: 0 5px; /* Margen para separar el texto y el enlace */
-}
-
-footer a {
-    color: #4b8bed; /* Color para el enlace */
-    text-decoration: none; /* Elimina el subrayado del enlace */
-}
-
-footer a:hover {
-    text-decoration: underline; /* Subraya el enlace al pasar el mouse */
-}
