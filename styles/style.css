@@ -460,5 +460,45 @@ button[type="button"]:hover {
 button[type="button"]:active {
     transform: translateY(1px); /* Simula un efecto de clic presionando el botón hacia abajo */
 }
+<<<<<<< HEAD
 /* Resto de estilos... */
 
+=======
+
+.footer1 {
+    background-color: #333;
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    width: 100%; 
+    margin-top: 10vh;
+
+}
+
+.footer2 {
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    width: 100%; 
+    margin-top: 100vh;
+}
+
+
+footer p, footer a {
+    display: inline; 
+    margin: 0 5px; 
+}
+
+footer a {
+    color: #4b8bed; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+
+
+>>>>>>> 4063552 (Ya podemos arrancar)
