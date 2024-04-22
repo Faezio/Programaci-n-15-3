@@ -460,10 +460,6 @@ button[type="button"]:hover {
 button[type="button"]:active {
     transform: translateY(1px); /* Simula un efecto de clic presionando el botón hacia abajo */
 }
-<<<<<<< HEAD
-/* Resto de estilos... */
-
-=======
 
 .footer1 {
     background-color: #333;
@@ -498,7 +494,3 @@ footer a {
 footer a:hover {
     text-decoration: underline; 
 }
-
-
-
->>>>>>> 4063552 (Ya podemos arrancar)
