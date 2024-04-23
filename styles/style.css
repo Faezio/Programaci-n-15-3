@@ -1,59 +1,7 @@
 body {
     font-family: "Roboto Mono", monospace;
 }
-div {
-    margin:-10px 0px 0px 0px;
-
-}
-.home {
-    margin: -10px 0px;
-}
-
-.electrónica {
-    margin: -10px 0px;
-}
-
-.acessorios{
-    margin: -10px 0px;
-}
-
-
-.hombre {
-    margin: -10px 0px; 
-}
-
-.mujer{
-    margin: -10px 0px;
-}
-
-.carrito {
-    position: absolute;
-    top: -10px; 
-    right: 10px; 
-}
-
-.login {
-    position: absolute;
-    top: -10px; 
-    right: 223px; 
-}
-
-.registro {
-    position: absolute;
-    top: -10px; 
-    right: 100px; 
-}
-
-
-
-
-
-
 /*Mujer*/
-
-
-
-
 
 .mujer1 {
     position: absolute;
@@ -235,8 +183,9 @@ div {
 }
 
 .categoria2{
-    margin-top: 150vh;
+    margin-top: 140vh;
     font-family: "Oswald", sans-serif;
+    text-align: center;
 }
 
 
@@ -331,8 +280,9 @@ div {
 }
 
 .categoria3{
-    margin-top: 125vh;
+    margin-top: 120vh;
     font-family: "Oswald", sans-serif;
+    text-align: center;
 }
 
 .hoodiemujer img{
@@ -440,6 +390,10 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #111;
 }
+
+
+
+
 /* Estilos para botones de eliminar */
 button[type="button"] {
     padding: 10px 15px;
@@ -493,4 +447,146 @@ footer a {
 
 footer a:hover {
     text-decoration: underline; 
+}
+
+.login-formulario{
+    text-align: center;
+    margin-top: 40vh;
+    word-spacing: 1px;
+    list-style: none;
+
+}
+.email{
+    word-spacing: 44px;
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .navigation-bar {
+        display: flex;
+        justify-content: space-around;
+        width: 130vh;
+    }
+
+    .categoria1{
+        margin: 130px 0px;
+        font-family: "Oswald", sans-serif;
+        
+    }
+
+
+    .mujer4{
+        display:none
+    }
+
+    .mujer5{
+        display:none
+    }
+
+    .hoodie1{
+        margin-top: 72vh;
+        text-align: center;
+    }
+    
+    .remera{
+        margin-top: 72vh;
+        text-align: center;
+    }
+    
+    .pantalon{
+        margin-top: 72vh;
+        text-align: center;
+    }
+
+   
+
+    .categoria2{
+        margin-top: 140vh;
+        font-family: "Oswald", sans-serif;
+        
+    }
+
+  
+
+    .hombre4{
+        display:none
+    }
+
+    .hombre5{
+        display:none
+    }
+
+    .remera2{
+        margin-top: 72vh;
+        text-align: center;
+       
+    }
+    
+    .hoodie2{
+        margin-top: 72vh;
+        text-align: center;
+    }
+    
+    .hoodie3{
+        margin-top: 72vh;
+        text-align: center;
+       
+    }
+
+
+
+
+    .categoria3{
+        margin-top: 120vh;
+        font-family: "Oswald", sans-serif;
+        
+    }
+
+    .elec4{
+        display:none
+    }
+
+    .elec5{
+        display:none
+    }
+
+    .appletv{
+        margin-top: 72vh;
+        text-align: center;
+       
+    }
+    
+    .quadcast{
+        margin-top: 72vh;
+        text-align: center;
+    }
+
+    
+    .beats{
+        margin-top: 72vh;
+        text-align: center;
+    }
+
+    .footer2{
+        margin-top: 100vh;
+        width: 130vh;
+
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .login-formulario{
+        text-align: center;
+        margin-top: 40vh;
+        word-spacing: 1px;
+        list-style: none;
+
+    }
+    .email{
+        word-spacing: 44px;
+    }
 }
