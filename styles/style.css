@@ -1,13 +1,19 @@
 body {
     font-family: "Roboto Mono", monospace;
 }
+
+.logo {
+    width: 30vh;
+    height: 10vh;
+    display: block;
+    margin: 0 auto;
+}
 /*Mujer*/
 
 .mujer1 {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid red;
     margin-top: 20vh;
     margin-left: 0vh;
   
@@ -15,6 +21,7 @@ body {
 }
 .hoodie1{
     margin-top: 68vh;
+    padding-top: 4dvh;
     text-align: center;
 }
 
@@ -22,7 +29,7 @@ body {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid blue;
+    padding-top: 5dvh;
     margin-top: 20vh;
     margin-left: 41.5vh;
     
@@ -31,6 +38,7 @@ body {
 
 .remera{
     margin-top: 68vh;
+    padding-top: 10dvh;
     text-align: center;
 }
 
@@ -38,7 +46,6 @@ body {
   position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid black;
     margin-top: 20vh;
     margin-left: 83vh;
     
@@ -54,23 +61,24 @@ body {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid blueviolet;
     margin-top: 20vh;
     margin-left: 121vh;
+    padding-top: 5dvh;
 
 }
 .remera2{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 7dvh;
 }
 
 .mujer5 {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid yellowgreen;
     margin-top: 20vh;
     margin-left: 159vh;
+    padding-top: 7dvh;
    
     
     
@@ -78,10 +86,11 @@ body {
 .buzo{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 3dvh;
 }
 
 .categoria1{
-    margin: 130px 0px;
+    margin: 160px 0px;
     font-family: "Oswald", sans-serif;
     text-align: center;
 }
@@ -107,15 +116,16 @@ body {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid red;
     margin-top: 140vh;
     margin-left: 0vh;
+
   
     
 }
 .remera2{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 4dvh;
    
 }
 
@@ -123,25 +133,25 @@ body {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid blue;
     margin-top: 140vh;
     margin-left: 41.5vh;
-    
+    padding-top: 12dvh;
     
 }
 
 .hoodie2{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 10dvh;
 }
 
 .hombre3 {
   position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid black;
     margin-top: 140vh;
     margin-left: 83vh;
+    padding-top: 10dvh;
     
     
 }
@@ -149,6 +159,7 @@ body {
 .hoodie3{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 9dvh;
    
 }
 
@@ -156,14 +167,15 @@ body {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid blueviolet;
     margin-top: 140vh;
     margin-left: 121vh;
+    padding-top: 4dvh;
 
 }
 .remera3{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 4dvh;
    
 }
 
@@ -171,15 +183,16 @@ body {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid yellowgreen;
     margin-top: 140vh;
     margin-left: 159vh; 
+    padding-top: 20dvh;
 }
 
 
 .pantalon2{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 7dvh;
 }
 
 .categoria2{
@@ -205,7 +218,6 @@ body {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid red;
     margin-top: 130vh;
     margin-left: 0vh;
   
@@ -214,6 +226,7 @@ body {
 .appletv{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 10dvh;
    
 }
 
@@ -221,7 +234,6 @@ body {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid blue;
     margin-top: 130vh;
     margin-left: 41.5vh;
     
@@ -231,13 +243,13 @@ body {
 .quadcast{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 10dvh;
 }
 
 .elec3 {
   position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid black;
     margin-top: 130vh;
     margin-left: 83vh;
     
@@ -247,13 +259,13 @@ body {
 .beats{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 10dvh;
 }
 
 .elec4 {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid blueviolet;
     margin-top: 130vh;
     margin-left: 121vh;
 
@@ -261,13 +273,13 @@ body {
 .dualsense{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 10dvh;
 }
 
 .elec5 {
     position: absolute;
     height: 500px;
     width: 270px;
-    border: 1px solid yellowgreen;
     margin-top: 130vh;
     margin-left: 159vh;
    
@@ -277,6 +289,7 @@ body {
 .magsafe{
     margin-top: 68vh;
     text-align: center;
+    padding-top: 10dvh;
 }
 
 .categoria3{
@@ -507,7 +520,21 @@ footer a:hover {
 }
 
 
+.carrito-boton{
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+    display: block; 
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
 
+}
 
 
 
