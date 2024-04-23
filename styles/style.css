@@ -590,3 +590,95 @@ footer a:hover {
         word-spacing: 44px;
     }
 }
+.navigation-bar {
+    margin-bottom: 0;
+}
+
+.product-container {
+    margin-top: 0;
+}
+
+.product-article {
+    margin-top: 0;
+}
+
+/* Estilos adicionales para ajustar las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation-bar {
+    margin-bottom: 0;
+}
+
+.product-container {
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 100%;
+    max-width: 300px;
+}
+
+.product-article {
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.navigation-bar {
+    margin-bottom: 20px; /* Ajusta el espacio entre el menú y las imágenes */
+}
+
+.mujer1,
+.mujer2,
+.mujer3,
+.mujer4,
+.mujer5,
+.hombre1,
+.hombre2,
+.hombre3,
+.hombre4,
+.hombre5,
+.elec1,
+.elec2,
+.elec3,
+.elec4,
+.elec5 {
+    margin-bottom: 20px; /* Ajusta el espacio entre las imágenes y la descripción del producto */
+}
+
+.hoodie1,
+.remera,
+.pantalon,
+.remera2,
+.buzo,
+.remera2,
+.hoodie2,
+.hoodie3,
+.remera3,
+.pantalon2,
+.appletv,
+.quadcast,
+.beats,
+.dualsense,
+.magsafe {
+    margin-top: 10px; /* Ajusta el espacio entre la descripción del producto y el botón */
+}
