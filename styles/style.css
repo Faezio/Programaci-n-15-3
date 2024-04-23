@@ -314,7 +314,7 @@ body {
 }
 
 .producto {
-    flex: 1 1 300px; /* Cada producto se ajusta pero no será menor de 300px */
+    flex: 1 1 300px; 
     margin: 10px;
     border: 1px solid #ccc;
     padding: 10px;
@@ -332,30 +332,29 @@ body {
 
 .buy-button {
     padding: 10px 20px;
-    background-color: #4CAF50; /* Color verde para el botón de compra */
-    color: white;
+    background-color: #4CAF50; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px; /* Espacio por encima del botón */
-    display: block; /* Hace que el botón ocupe su línea */
-    width: 200px; /* Ancho del botón */
+    margin-top: 20px; 
+    display: block; 
+    width: 200px; 
     margin-left: auto;
     margin-right: auto;
 }
 
 .buy-button:hover {
-    background-color: #45a049; /* Color ligeramente más oscuro al pasar el mouse */
+    background-color: #45a049; 
 }
 
-/* Remueve los márgenes y el padding por defecto de todos los elementos */
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Esto asegura que padding y border no aumenten el ancho total de los elementos */
+    box-sizing: border-box; 
 }
 
-/* Asegúrate de que la barra de navegación ocupe todo el ancho */
+
 nav {
     width: 100%;
     display: block;
@@ -366,10 +365,10 @@ nav {
 nav ul {
     list-style-type: none;
     width: 100%;
-    display: flex; /* Usamos flexbox para alinear los elementos de la lista */
-    justify-content: center; /* Esto centra los elementos de la lista en el menú */
+    display: flex; 
+    justify-content: center; 
     align-items: center;
-    height: 50px; /* Altura fija para la barra de navegación */
+    height: 50px; 
     background-color: #333;
 }
 
@@ -383,10 +382,10 @@ nav ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: background-color 0.3s; /* Añade una transición suave para el cambio de color */
+    transition: background-color 0.3s; 
 }
 
-/* Cambio de color al pasar el mouse */
+
 nav ul li a:hover {
     background-color: #111;
 }
@@ -394,25 +393,25 @@ nav ul li a:hover {
 
 
 
-/* Estilos para botones de eliminar */
+
 button[type="button"] {
     padding: 10px 15px;
-    background-color: #ff4b5a; /* Rojo para el botón de eliminar */
+    background-color: #ff4b5a; 
     color: white;
     border: none;
-    border-radius: 4px; /* Esquinas redondeadas */
+    border-radius: 4px; 
     cursor: pointer;
-    transition: background-color 0.2s, transform 0.1s; /* Suaviza el cambio de color y transformación */
-    outline: none; /* Elimina el contorno que aparece al hacer clic en algunos navegadores */
+    transition: background-color 0.2s, transform 0.1s; 
+    outline: none; 
 }
 
 button[type="button"]:hover {
-    background-color: #ff2e4a; /* Un rojo ligeramente más oscuro al pasar el mouse */
-    transform: translateY(-2px); /* Eleva ligeramente el botón */
+    background-color: #ff2e4a; 
+    transform: translateY(-2px); 
 }
 
 button[type="button"]:active {
-    transform: translateY(1px); /* Simula un efecto de clic presionando el botón hacia abajo */
+    transform: translateY(1px); 
 }
 
 .footer1 {
@@ -459,6 +458,61 @@ footer a:hover {
 .email{
     word-spacing: 44px;
 }
+
+.registro-formulario{
+    text-align: center;
+    margin-top: 40vh;
+    word-spacing: 1px;
+    list-style: none;
+
+}
+.email2{
+    word-spacing: 105px;
+}
+.contraseña{
+    word-spacing: 60px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+    display: block; 
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+
+}
+
+.submit-button :visited{
+    color: white;
+
+}
+
+
+.recover-formulario{
+    text-align: center;
+    margin-top: 40vh;
+    word-spacing: 1px;
+    list-style: none;
+
+}
+.email3{
+    word-spacing: 1px;
+}
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 420px) {
@@ -682,3 +736,4 @@ img {
 .magsafe {
     margin-top: 10px; /* Ajusta el espacio entre la descripción del producto y el botón */
 }
+
