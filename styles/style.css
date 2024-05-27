@@ -404,9 +404,6 @@ nav ul li a:hover {
 }
 
 
-
-
-
 button[type="button"] {
     padding: 10px 15px;
     background-color: #ff4b5a; 
@@ -434,7 +431,7 @@ button[type="button"]:active {
     padding: 10px 0; 
     width: 100%; 
     margin-top: 10vh;
-
+    
 }
 
 .footer2 {
@@ -445,7 +442,6 @@ button[type="button"]:active {
     width: 100%; 
     margin-top: 100vh;
 }
-
 
 footer p, footer a {
     display: inline; 
@@ -764,3 +760,7 @@ img {
     margin-top: 10px; /* Ajusta el espacio entre la descripción del producto y el botón */
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}

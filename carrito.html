@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Marketflix - Carrito</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <title>Marketflix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+
 </head>
 <body> 
-<nav class="navigation-bar"> 
-<ul>
-
-    <li><a href="index.html">HOME</a></li>
-    <li> <a href="categoria.html">ELECTRÓNICA</a></li>
-    <li>   <a href="categoria.html">ACCESORIOS</a></li>
-    <li>  <a href="categoria.html">HOMBRE</a></li>
-    <li> <a href="categoria.html">MUJER</a></li>
-    <li> <a href="carrito.html">CARRITO</a></li>
-    <li><a href="login.html">LOGIN</a></li>
-    <li> <a href="registro.html">REGÍSTRATE</a></li>
-
-</ul>
-</nav>
+    <header class="navigation-bar">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="categoria.html">ELECTRÓNICA</a></li>
+                <li><a href="categoria.html">ACCESORIOS</a></li>
+                <li><a href="categoria.html">HOMBRE</a></li>
+                <li><a href="categoria.html">MUJER</a></li>
+                <li><a href="carrito.html">CARRITO</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="registro.html">REGÍSTRATE</a></li>
+            </ul>
+        </nav>
+    </header>
 
 <!-- Carrito de Compras -->
 <form action="process_purchase.html" method="POST">
@@ -32,39 +35,38 @@
         <!-- Productos seleccionados -->
         <div class="producto">
             <img src="./img/hombre3.webp" alt="Sky Hoodie">
-            <div class="producto-info">
-                <p><b>Sky Hoodie</b></p>
+              <div class="producto-info">
+                <p>Sky Hoodie</p>
                 <p>Buzo turquesa con capucha integrada, flow inmediato</p>
                 <p><b>$60.000</b></p>
-                <button type="button">Eliminar del carrito</button>
-            </div>
-        </div>
-        <div class="producto">
+                <a href ="">Eliminar del carrito</a>
+              </div>
+    
             <img src="./img/hombre4.webp" alt="Art Shirt">
-            <div class="producto-info">
-                <p><b>Art</b></p>
+               <div class="producto-info">
+                <p>Art</p>
                 <p>Remera oversize blanca estampada</p>
-                <p><b>$20.000</b></p>
-                <button type="button">Eliminar del carrito</button>
-            </div>
-        </div>
-        <div class="producto">
+                <p>$20.000</p>
+                <a href ="">Eliminar del carrito</a>
+               </div>
+        
+        
             <img src="./img/hombre5.jpeg" alt="Cargo King">
-            <div class="producto-info">
-                <p><b>Cargo king</b></p>
+               <div class="producto-info">
+                <p>Cargo king</p>
                 <p>Pantalón cargo negro, imperdible</p>
-                <p><b>$70.000</b></p>
-                <button type="button">Eliminar del carrito</button>
-            </div>
+                <p>$70.000</p>
+                <a href ="">Eliminar del carrito</a>
+              </div>
         </div>
     </div>
     <!-- Botón para finalizar la compra -->
-    <button type="submit" class="buy-button">Comprar</button>
+    <a href ="">Comprar</a>
 </form>
 
-<footer class="footer1">
+<footer class="footer2">
     <p>Marketflix todos los derechos reservados - 2024</p>
-    <a href="#legales">Legales</a>
+    <a href="index.html">Legales</a>
 </footer>
 
 </body>
